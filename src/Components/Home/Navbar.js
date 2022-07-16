@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div class="navbar bg-base-200 sticky top-0 left-0 right-0">
+      <div class="navbar bg-base-200 ">
         <div class="navbar-start lg:mx-8">
           <div class="dropdown">
             <label tabindex="0" class=" btn btn-ghost lg:hidden">
@@ -40,12 +40,12 @@ const Navbar = () => {
                 <Link to="/team">Team</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/blog">Blog</Link>
               </li>
             </ul>
           </div>
           <a class="  normal-case text-xl from-neutral-content">
-            <span className="text-orange-400 mr-1 text-2xl font-semibold">
+            <span className=" text-[#FF8A65] mr-1 text-2xl font-semibold">
               Molla
             </span>{" "}
             consumer products private Ltd
@@ -67,7 +67,7 @@ const Navbar = () => {
               <Link to="/team">Team</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
