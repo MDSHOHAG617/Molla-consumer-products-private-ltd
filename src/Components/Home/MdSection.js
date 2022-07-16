@@ -4,7 +4,7 @@ import Md from "../../Images/Md.png";
 const MdSection = () => {
   return (
     <div>
-      <div class="hero min-h-screen bg-base-200">
+      <div class="hero min-h-screen ">
         <div class="hero-content flex-col lg:flex-row-reverse mx-8">
           <div>
             <img alt="" src={Md} class="max-w-sm rounded-lg shadow-2xl" />

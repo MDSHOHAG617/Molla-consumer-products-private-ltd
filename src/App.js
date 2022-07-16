@@ -7,6 +7,7 @@ import Products from "./Components/Products";
 import Team from "./Components/Team";
 import Login from "./Components/Login";
 import Blog from "./Components/Blog";
+import NotFound from "./Components/NotFound";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,8 @@ function App() {
         <Route path="/team" element={<Team></Team>}></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+
+        <Route path="/*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );

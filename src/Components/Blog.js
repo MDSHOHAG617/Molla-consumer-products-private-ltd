@@ -4,8 +4,8 @@ const Blog = () => {
   return (
     <div>
       <img
-        className="w-8/12 mx-auto"
-        src="https://gospelfellowshiphbg.com/wp-content/uploads/2021/09/coming_soon.gif"
+        className="mt-8 mx-auto rounded-xl"
+        src="https://ca-935th.com/assets/img/winnerboards/Coming-soon.png"
         alt=""
       />
     </div>
