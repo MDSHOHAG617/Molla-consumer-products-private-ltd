@@ -48,7 +48,7 @@ const Navbar = () => {
             <span className="text-orange-400 mr-1 text-2xl font-semibold">
               Molla
             </span>{" "}
-            consumer products private ltd
+            consumer products private Ltd
           </a>
         </div>
         <div class="navbar-center hidden lg:flex">

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded absolute bottom-0">
+      <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded ">
         <div class="grid grid-flow-col gap-4">
           <a class="link link-hover">About us</a>
           <a class="link link-hover">Contact</a>
@@ -48,7 +48,10 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+          <p>
+            Copyright © 2022 - All right reserved by Molla consumer products
+            private Ltd
+          </p>
         </div>
       </footer>
     </div>

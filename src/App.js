@@ -7,7 +7,6 @@ import Products from "./Components/Products";
 import Team from "./Components/Team";
 import Contact from "./Components/Contact";
 import Login from "./Components/Login";
-import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
@@ -20,7 +19,6 @@ function App() {
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
       </Routes>
-      <Footer></Footer>
     </div>
   );
 }
