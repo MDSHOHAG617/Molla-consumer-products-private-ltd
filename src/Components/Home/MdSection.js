@@ -7,14 +7,18 @@ const MdSection = () => {
       <div class="hero min-h-screen mx-auto ">
         <div class="hero-content flex-col lg:flex-row-reverse  mx-auto">
           <div>
-            <img alt="" src={Md} class="max-w-sm rounded-lg shadow-2xl" />
+            <img
+              alt=""
+              src={Md}
+              class="max-w-xs lg:max-w-sm lg:m-4 rounded-lg shadow-2xl"
+            />
             <h2 className="mt-4 text-xl font-bold">Mr. Abu Taleb</h2>
           </div>
           <div className="mx-auto">
             <h1 class="text-2xl font-bold">
               Messages from (Md) Managing Director
             </h1>
-            <p class="py-6 text-justify">
+            <p class="py-6 text-justify p-4 lg:p-0">
               In the emergence of 21st century, consumer consciousnesses are
               ameliorated day by day. Now their product selection is in the term
               of quality rather than quantity & price. They are always looking
