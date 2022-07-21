@@ -4,13 +4,13 @@ import Md from "../../Images/Md.png";
 const MdSection = () => {
   return (
     <div>
-      <div class="hero min-h-screen ">
-        <div class="hero-content flex-col lg:flex-row-reverse mx-8">
+      <div class="hero min-h-screen mx-auto ">
+        <div class="hero-content flex-col lg:flex-row-reverse  mx-auto">
           <div>
             <img alt="" src={Md} class="max-w-sm rounded-lg shadow-2xl" />
             <h2 className="mt-4 text-xl font-bold">Mr. Abu Taleb</h2>
           </div>
-          <div className="mx-8">
+          <div className="mx-auto">
             <h1 class="text-2xl font-bold">
               Messages from (Md) Managing Director
             </h1>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../../Images/logo.png";
 const Navbar = () => {
   return (
     <div>
@@ -44,12 +44,17 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a class="  normal-case text-xl from-neutral-content">
-            <span className=" text-[#FF8A65] mr-1 text-2xl font-semibold">
-              Molla
-            </span>{" "}
-            consumer products private Ltd
-          </a>
+          {/* <a class="flex justify-center items-center  normal-case text-xl from-neutral-content">
+            <img className="w-32 h-32" src={logo} alt="" />
+            consumer private Ltd
+          </a> */}
+
+          <div className="logo flex items-center">
+            <img className="w-24" src={logo} alt="" />
+            <p className="mx-2 font-semibold ">
+              Molla Consumer Products(pvt).Ltd
+            </p>
+          </div>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
