@@ -4,7 +4,7 @@ import logo from "../../Images/logo.png";
 const Navbar = () => {
   return (
     <div>
-      <div class="navbar bg-base-200 ">
+      <div class="navbar bg-base-200 p-4">
         <div class="navbar-start lg:mx-8">
           <div class="dropdown">
             <label tabindex="0" class=" btn btn-ghost lg:hidden">
@@ -50,8 +50,8 @@ const Navbar = () => {
           </a> */}
 
           <div className="logo flex items-center">
-            <img className="w-24" src={logo} alt="" />
-            <p className="mx-2 font-semibold ">
+            <img className="w-20 lg:w-28" src={logo} alt="" />
+            <p className=" ml-2 lg:ml-4  lg:font-semibold ">
               Molla Consumer Products(pvt).Ltd
             </p>
           </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
         <div class="navbar-end lg:mx-8">
           <Link to="/login" className="flex items-center ">
-            Login
+            <span className="hidden">Login</span>
             <img
               className="w-14 ml-2 "
               src="https://img.icons8.com/color/344/in-app-messaging.png"
