@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
         <div class="navbar-end lg:mx-8">
           <Link to="/login" className="flex items-center ">
-            <span className="hidden">Login</span>
+            <span className="hidden md:block lg:block ">Login</span>
             <img
               className="w-14 ml-2 "
               src="https://img.icons8.com/color/344/in-app-messaging.png"

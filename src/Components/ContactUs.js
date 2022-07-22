@@ -21,24 +21,25 @@ const ContactUs = () => {
                   type="text"
                   name="name"
                   placeholder="Type your name"
-                  class="input input-success  w-full max-w-sm lg:max-w-lg "
+                  class="input input-success text-black 
+                   w-full max-w-sm lg:max-w-lg "
                 />
                 <input
                   type="text"
                   name="email"
                   placeholder="Type your email"
-                  class="input input-success w-full max-w-lg lg:max-w-lg mx-auto"
+                  class="input text-black input-success w-full max-w-lg lg:max-w-lg mx-auto"
                 />
                 <input
                   type="password"
                   name="password"
                   placeholder="Type password"
-                  class="input input-success w-full max-w-sm lg:max-w-lg"
+                  class="input input-success w-full text-black max-w-sm lg:max-w-lg"
                 />
                 <textarea
                   name="message"
                   rows="4"
-                  class="textarea input-success  max-w-sm lg:max-w-lg"
+                  class="textarea text-black input-success  max-w-sm lg:max-w-lg"
                   placeholder="Type your message"
                 ></textarea>
                 <div class="card-actions justify-center mt-4">
