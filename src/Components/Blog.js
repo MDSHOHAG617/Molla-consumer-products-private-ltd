@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <div>
       <img
-        className="mt-8 mx-auto rounded-xl"
+        className="mt-8 w-96 lg:w-5/12  mx-auto rounded-xl "
         src="https://ca-935th.com/assets/img/winnerboards/Coming-soon.png"
         alt=""
       />

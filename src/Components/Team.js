@@ -1,6 +1,6 @@
 import React from "react";
 import md from "../Images/Md.png";
-import teamM1 from "../Images/teamM1.png";
+import teamM1 from "../Images/teamM1.jpg";
 
 const Team = () => {
   return (
@@ -42,7 +42,7 @@ const Team = () => {
       <div className="team mt-8 grid gap-8 grid-cols-2 lg:grid-cols-4 mx-12 lg:mx-72">
         <div className="team-members">
           <div class="avatar">
-            <div class="w-28 rounded">
+            <div class="w-28 rounded-full ring  ring-offset-base-100 ring-offset-2">
               <img src={teamM1} />
             </div>
           </div>
