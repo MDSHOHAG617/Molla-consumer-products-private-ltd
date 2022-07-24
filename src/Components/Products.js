@@ -16,6 +16,13 @@ import product14 from "../Images/products14.jpeg";
 import product15 from "../Images/products15.jpeg";
 import product17 from "../Images/products17.jpeg";
 import product18 from "../Images/products18.jpeg";
+import bbqcanacur from "../Images/pbbqcanacur.jpeg";
+import cocopast from "../Images/pcocopaste.jpeg";
+import dairymilk from "../Images/pdairymilk.jpeg";
+import licheedrink from "../Images/plicheedrink.jpeg";
+import mangojuice from "../Images/pmangojuice.jpeg";
+import racingchocolate from "../Images/pracingchocolatecar.jpeg";
+import lichesngl from "../Images/plicheedrinksngl.jpeg";
 
 const Products = () => {
   return (
@@ -126,9 +133,184 @@ const Products = () => {
             </div>
           </div>
         </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 mt-6" src={product17} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">ICE Pop Drinks </h2>
+              <p className="justify-center">
+                our best selling product for summer
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-96 h-72 p-8" src={product18} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Nacho Cheese </h2>
+              <p className="justify-center">
+                A tortilla chip is a snack food made from corn tortillas, which
+                are cut into triangles and then fried or baked{" "}
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 p-4 mt-6" src={bbqcanacur} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Bar-B-Q Chanachur </h2>
+              <p className="justify-center">
+                Our most spicy and delicious product for every time
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 p-4 mt-6" src={cocopast} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Choco Paste </h2>
+              <p className="justify-center">
+                Our chocolaty product, most famous for children
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 h-72 p-4 mt-6" src={dairymilk} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Dairy milk </h2>
+              <p className="justify-center">
+                Our chocolaty product, most famous for children
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img
+                className="w-56 h-72 p-4 mt-6"
+                src={licheedrink}
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Lichee Drink </h2>
+              <p className="justify-center">
+                Our best selling product on summer
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img
+                className="w-56 h-72 p-4 mt-6"
+                src={mangojuice}
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Mango Drink </h2>
+              <p className="justify-center">
+                Our best selling product on summer
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img
+                className="w-56 h-72 p-4 mt-6"
+                src={racingchocolate}
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Racing Chocolate car </h2>
+              <p className="justify-center">
+                Our chocolaty product, most famous for children
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 h-72 p-4 mt-6" src={lichesngl} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Lichee Drink </h2>
+              <p className="justify-center">
+                Our best selling product for summer
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* Others products  */}
+      {/*------------- Others products-------  */}
       <h2 className="text-3xl font-bold bg-slate-200 p-8 mt-32 mb-8 ">
         Others Products gallery{" "}
       </h2>
