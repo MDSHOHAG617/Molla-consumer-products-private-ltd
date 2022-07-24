@@ -47,7 +47,7 @@ const Team = () => {
             </div>
           </div>
           <h2 className=" font-bold">Md. ENAMUL HAQUE</h2>
-          <span className="">CEO</span>
+          <span className="">Chemist </span>
           <div className="media flex justify-center items-center">
             <a href="">
               <img
