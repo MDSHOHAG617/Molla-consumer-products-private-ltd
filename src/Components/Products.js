@@ -20,7 +20,7 @@ import product18 from "../Images/products18.jpeg";
 const Products = () => {
   return (
     <div className="">
-      <h2 className="mb-8 text-2xl font-bold bg-slate-200 p-8 ">
+      <h2 className="mb-8 text-3xl font-bold bg-slate-200 p-8 ">
         Welcome to Products gallery{" "}
       </h2>
       <div className="Products grid grid-cols-1 lg:grid-cols-3   gap-8">
@@ -48,10 +48,8 @@ const Products = () => {
               <img className="w-56 mt-6" src={product11} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
-              <p className="justify-center">
-                Our one of the best product for the summer
-              </p>
+              <h2 class="card-title justify-center ">Potato Crackers</h2>
+              <p className="justify-center">Our All time best product</p>
               <div class="card-actions justify-center">
                 <button class=" btn btn-md bg-[#FF8A65] border-none">
                   Details
@@ -66,10 +64,8 @@ const Products = () => {
               <img className="w-56 mt-8" src={product12} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
-              <p className="justify-center">
-                Our one of the best product for the summer
-              </p>
+              <h2 class="card-title justify-center ">lychee </h2>
+              <p className="justify-center">Our most delicious product</p>
               <div class="card-actions justify-center">
                 <button class=" btn btn-md bg-[#FF8A65] border-none">
                   Details
@@ -84,9 +80,9 @@ const Products = () => {
               <img className="w-56 mt-8" src={product13} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
+              <h2 class="card-title justify-center ">Matar fry</h2>
               <p className="justify-center">
-                Our one of the best product for the summer
+                Our Crispy and spicy product ever
               </p>
               <div class="card-actions justify-center">
                 <button class=" btn btn-md bg-[#FF8A65] border-none">
@@ -102,10 +98,8 @@ const Products = () => {
               <img className="w-52 mt-6" src={product14} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
-              <p className="justify-center">
-                Our one of the best product for the summer
-              </p>
+              <h2 class="card-title justify-center ">Dal fry</h2>
+              <p className="justify-center">Our best reviewed spicy product </p>
               <div class="card-actions justify-center">
                 <button class=" btn btn-md bg-[#FF8A65] border-none">
                   Details
@@ -120,9 +114,9 @@ const Products = () => {
               <img className="w-56 mt-6" src={product15} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
+              <h2 class="card-title justify-center ">Fruit Pudding </h2>
               <p className="justify-center">
-                Our one of the best product for the summer
+                Our most reviewed delicious product
               </p>
               <div class="card-actions justify-center">
                 <button class=" btn btn-md bg-[#FF8A65] border-none">
@@ -135,7 +129,7 @@ const Products = () => {
       </div>
 
       {/* Others products  */}
-      <h2 className="text-2xl font-bold bg-slate-200 p-8 mt-32 mb-8 ">
+      <h2 className="text-3xl font-bold bg-slate-200 p-8 mt-32 mb-8 ">
         Others Products gallery{" "}
       </h2>
       <div className="Products grid grid-cols-1 lg:grid-cols-3 mb-8  gap-8">
@@ -145,12 +139,12 @@ const Products = () => {
               <img className="" src={product1} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
+              {/* <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
               <p className="justify-center">
                 Our one of the best product for the summer
-              </p>
+              </p> */}
               <div class="card-actions justify-center">
-                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                <button class="my-4 btn btn-md bg-[#FF8A65] border-none">
                   Details
                 </button>
               </div>
@@ -163,12 +157,12 @@ const Products = () => {
               <img className="" src={product2} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
+              {/* <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
               <p className="justify-center">
                 Our one of the best product for the summer
-              </p>
+              </p> */}
               <div class="card-actions justify-center">
-                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                <button class="my-4 btn btn-md bg-[#FF8A65] border-none">
                   Details
                 </button>
               </div>
@@ -181,12 +175,12 @@ const Products = () => {
               <img className="" src={product3} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
+              {/* <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
               <p className="justify-center">
                 Our one of the best product for the summer
-              </p>
+              </p> */}
               <div class="card-actions justify-center">
-                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                <button class="my-4 btn btn-md bg-[#FF8A65] border-none">
                   Details
                 </button>
               </div>
@@ -199,12 +193,12 @@ const Products = () => {
               <img className="" src={product4} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
+              {/* <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
               <p className="justify-center">
                 Our one of the best product for the summer
-              </p>
+              </p> */}
               <div class="card-actions justify-center">
-                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                <button class="my-4 btn btn-md bg-[#FF8A65] border-none">
                   Details
                 </button>
               </div>
@@ -217,12 +211,12 @@ const Products = () => {
               <img className="" src={product5} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
+              {/* <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
               <p className="justify-center">
                 Our one of the best product for the summer
-              </p>
+              </p> */}
               <div class="card-actions justify-center">
-                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                <button class="my-4 btn btn-md bg-[#FF8A65] border-none">
                   Details
                 </button>
               </div>
@@ -235,12 +229,12 @@ const Products = () => {
               <img className=" " src={product6} alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
+              {/* <h2 class="card-title justify-center ">ICE Lolly Pop</h2>
               <p className="justify-center">
                 Our one of the best product for the summer
-              </p>
+              </p> */}
               <div class="card-actions justify-center">
-                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                <button class=" my-4 btn btn-md bg-[#FF8A65] border-none">
                   Details
                 </button>
               </div>

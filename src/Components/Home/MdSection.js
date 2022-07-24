@@ -16,7 +16,7 @@ const MdSection = () => {
           </div>
           <div className="mx-auto">
             <h1 class="text-2xl font-bold">
-              Messages from (Md) Managing Director
+              Messages from (MD) Managing Director
             </h1>
             <p class="py-6 text-justify p-4 lg:p-0">
               In the emergence of 21st century, consumer consciousnesses are
