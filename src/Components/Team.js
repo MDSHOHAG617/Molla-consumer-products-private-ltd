@@ -4,6 +4,9 @@ import chairman from "../Images/chairman.jpeg";
 import ed from "../Images/Ed.jpeg";
 import chemist from "../Images/teamM1.jpg";
 import nsm from "../Images/nsm.jpeg";
+import ceo from "../Images/ceo.jpeg";
+import adminOfficer from "../Images/adminofficer.jpeg";
+import admin from "../Images/admin.jpeg";
 
 const Team = () => {
   return (
@@ -77,6 +80,38 @@ const Team = () => {
       <hr />
 
       <div className="team mt-8 grid gap-8 grid-cols-2 lg:grid-cols-4 mx-12 lg:mx-72">
+        <div className="team-members">
+          <div class="avatar">
+            <div class="w-28 rounded-full ring  ring-offset-base-100 ring-offset-2">
+              <img src={ceo} alt="img" />
+            </div>
+          </div>
+          <h2 className=" font-bold">-------------</h2>
+          <span className="">CEO</span>
+          <div className="media flex justify-center items-center">
+            <a href="">
+              <img
+                className=" w-8 m-2"
+                src="https://img.icons8.com/ios-filled/344/facebook-new.png"
+                alt=""
+              />
+            </a>
+            <a href="">
+              <img
+                className=" w-8 m-2 "
+                src="https://img.icons8.com/ios-filled/344/twitter-circled--v1.png"
+                alt=""
+              />
+            </a>
+            <a href="">
+              <img
+                className=" w-8 m-2"
+                src="https://img.icons8.com/ios-filled/344/linkedin-circled.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
         <div className="team-members">
           <div class="avatar">
             <div class="w-28 rounded-full ring  ring-offset-base-100 ring-offset-2">
@@ -173,14 +208,76 @@ const Team = () => {
             </a>
           </div>
         </div>
+        <div className="team-members hidden lg:block">
+          <div class="avatar">
+            <div class="">{/* <img src="" alt="" /> */}</div>
+          </div>
+          <h2 className=" font-bold"></h2>
+          <span className=""></span>
+          <div className="media flex justify-center items-center">
+            {/* <a href="">
+              <img
+                className=" w-8 m-2"
+                src="https://img.icons8.com/ios-filled/344/facebook-new.png"
+                alt=""
+              />
+            </a>
+            <a href="">
+              <img
+                className=" w-8 m-2 "
+                src="https://img.icons8.com/ios-filled/344/twitter-circled--v1.png"
+                alt=""
+              />
+            </a>
+            <a href="">
+              <img
+                className=" w-8 m-2"
+                src="https://img.icons8.com/ios-filled/344/linkedin-circled.png"
+                alt=""
+              />
+            </a> */}
+          </div>
+        </div>
         <div className="team-members">
           <div class="avatar">
             <div class="w-28 rounded-full ring  ring-offset-base-100 ring-offset-2">
-              <img src="" alt="img" />
+              <img src={adminOfficer} alt="img" />
             </div>
           </div>
-          <h2 className=" font-bold">-----------------</h2>
-          <span className="">----</span>
+          <h2 className=" font-bold">Hemal Islam</h2>
+          <span className="">Admin Officer</span>
+          <div className="media flex justify-center items-center">
+            <a href="">
+              <img
+                className=" w-8 m-2"
+                src="https://img.icons8.com/ios-filled/344/facebook-new.png"
+                alt=""
+              />
+            </a>
+            <a href="">
+              <img
+                className=" w-8 m-2 "
+                src="https://img.icons8.com/ios-filled/344/twitter-circled--v1.png"
+                alt=""
+              />
+            </a>
+            <a href="">
+              <img
+                className=" w-8 m-2"
+                src="https://img.icons8.com/ios-filled/344/linkedin-circled.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div className="team-members ">
+          <div class="avatar">
+            <div class="w-28 rounded-full ring  ring-offset-base-100 ring-offset-2">
+              <img src={admin} alt="img" />
+            </div>
+          </div>
+          <h2 className=" font-bold">Mobia Hasan (Niyat)</h2>
+          <span className="">Admin </span>
           <div className="media flex justify-center items-center">
             <a href="">
               <img
