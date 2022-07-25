@@ -4,11 +4,32 @@ const Footer = () => {
   return (
     <div>
       <footer class="footer footer-center p-10 bg-base-300 text-base-content rounded ">
-        <div class="grid grid-flow-col gap-4">
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
+        <div class="">
+          <h1 className="text-lg font-semibold">
+            Contact with Managing Director
+          </h1>
+          <div className="font-mono">
+            <div className="email flex items-center">
+              <span>
+                <img
+                  className="w-7 mr-2"
+                  src="https://img.icons8.com/ios-filled/344/apple-mail.png"
+                  alt=""
+                />
+              </span>
+              <p>mollaconsumer2008@gmail.com</p>
+            </div>
+            <div className="cell flex items-center">
+              <span>
+                <img
+                  className="w-7 mr-2"
+                  src="https://img.icons8.com/ios-filled/344/apple-phone.png"
+                  alt=""
+                />
+              </span>
+              <p>01820-560000, 01715- 868501</p>
+            </div>
+          </div>
         </div>
         <div>
           <div class="grid grid-flow-col gap-4">
