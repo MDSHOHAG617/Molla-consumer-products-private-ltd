@@ -6,12 +6,18 @@ import vision from "../Images/vision.png";
 
 const About = () => {
   return (
-    <div className="mb-16">
+    <div className="mb-64">
       {/* top section */}
       <img className=" w-full h-96" src={industry} alt="" />
+      {/* toast */}
+      <div className="toast  toast-end mb-28  bg-gradient-to-r from-red-200  to-yellow-300 hover:from-pink-400 :to-pink-100 rounded z-10 text-mono">
+        <h1 className="text-base font-semibold text-">
+          {" "}
+          Molla Consumer Products(pvt).Ltd science 2008
+        </h1>
+      </div>
 
       {/* mid section */}
-
       <div className="mid-section grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16">
         <div class="card vision w-96 mx-auto bg-base-100  hover:shadow-2xl">
           <figure class="px-10 pt-10">

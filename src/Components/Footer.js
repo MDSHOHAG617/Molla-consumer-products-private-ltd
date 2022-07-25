@@ -10,23 +10,23 @@ const Footer = () => {
           </h1>
           <div className="font-mono">
             <div className="email flex items-center">
-              <span>
+              {/* <span>
                 <img
                   className="w-7 mr-2"
                   src="https://img.icons8.com/ios-filled/344/apple-mail.png"
                   alt=""
                 />
-              </span>
-              <p>mollaconsumer2008@gmail.com</p>
+              </span> */}
+              <p>mollaconsumer2008@gmail.com | viptaleb7@gmail.com</p>
             </div>
-            <div className="cell flex items-center">
-              <span>
+            <div className="cell flex items-center justify-center">
+              {/* <span>
                 <img
                   className="w-7 mr-2"
                   src="https://img.icons8.com/ios-filled/344/apple-phone.png"
                   alt=""
                 />
-              </span>
+              </span> */}
               <p>01820-560000, 01715- 868501</p>
             </div>
           </div>
