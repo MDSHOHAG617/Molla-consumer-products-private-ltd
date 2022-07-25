@@ -1,6 +1,5 @@
 {
   "name": "molla-consumer-products-pvt-ltd",
-  "homepage": "https://www.mollaconsumerbd.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
