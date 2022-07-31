@@ -10,7 +10,7 @@ const About = () => {
       {/* top section */}
       <img className=" w-full h-96" src={industry} alt="" />
       {/* toast */}
-      <div className="toast  toast-end mb-28  bg-gradient-to-r from-red-200  to-yellow-300 hover:from-pink-400 :to-pink-100 rounded z-10 text-mono">
+      <div className="toast toast-end mb-28  bg-gradient-to-r from-red-200  to-yellow-300 hover:from-pink-400 :to-pink-100 rounded z-10 ">
         <h1 className="text-base font-semibold text-">
           {" "}
           Molla Consumer Products(pvt).Ltd science 2008

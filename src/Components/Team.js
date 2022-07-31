@@ -86,7 +86,7 @@ const Team = () => {
               <img src={ceo} alt="img" />
             </div>
           </div>
-          <h2 className=" font-bold">-------------</h2>
+          <h2 className=" font-bold">Kazi Arifur Rahman</h2>
           <span className="">CEO</span>
           <div className="media flex justify-center items-center">
             <a href="">
