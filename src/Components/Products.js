@@ -5,9 +5,6 @@ import product3 from "../Images/products3.jpeg";
 import product4 from "../Images/products4.jpeg";
 import product5 from "../Images/products5.jpeg";
 import product6 from "../Images/products6.jpeg";
-import product7 from "../Images/products7.jpeg";
-import product8 from "../Images/products8.jpeg";
-import product9 from "../Images/products9.jpeg";
 import product10 from "../Images/products10.jpeg";
 import product11 from "../Images/products11.jpeg";
 import product12 from "../Images/products12.jpeg";
@@ -23,6 +20,13 @@ import licheedrink from "../Images/plicheedrink.jpeg";
 import mangojuice from "../Images/pmangojuice.jpeg";
 import racingchocolate from "../Images/pracingchocolatecar.jpeg";
 import lichesngl from "../Images/plicheedrinksngl.jpeg";
+import candy1 from "../Images/candy1.jpeg";
+import candy2 from "../Images/candy2.jpeg";
+import candy3 from "../Images/candy3.jpeg";
+import candy4 from "../Images/candy4.jpeg";
+import candy5 from "../Images/candy5.jpeg";
+import candy6 from "../Images/candy6.jpeg";
+import candy7 from "../Images/candy7.jpeg";
 
 const Products = () => {
   return (
@@ -308,6 +312,149 @@ const Products = () => {
             </div>
           </div>
         </div>
+
+
+
+
+        {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+
+
+
+
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 h-72 p-4 mt-6" src={candy1} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Orange Candy </h2>
+              <p className="justify-center">
+                Our best selling product for all time
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 h-72 p-4 mt-6" src={candy2} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Lichi Candy </h2>
+              <p className="justify-center">
+                Our best selling product for all time
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 h-72 p-4 mt-6" src={candy3} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Hajmi Candy </h2>
+              <p className="justify-center">
+                Our best selling product for all time
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-64 h-72 p-4 mt-6" src={candy4} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Mango Candy </h2>
+              <p className="justify-center">
+                Our best selling product for all time
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 h-72 p-4 mt-6" src={candy5} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Milk Candy </h2>
+              <p className="justify-center">
+                Our best selling product for all time
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 h-72 p-4 mt-6" src={candy6} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Tamarind candy </h2>
+              <p className="justify-center">
+                Our best selling product for all time
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="product">
+          <div class=" mx-auto  card card-compact w-96 bg-base-100 shadow-xl hover:shadow-[#615855]  hover:shadow-2xl">
+            <figure>
+              <img className="w-56 h-72 p-4 mt-6" src={candy7} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center ">Tok jhal isty candy </h2>
+              <p className="justify-center">
+                Our best selling product for all time
+              </p>
+              <div class="card-actions justify-center">
+                <button class=" btn btn-md bg-[#FF8A65] border-none">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+
+
+
+
+
+
+
       </div>
 
       {/*------------- Others products-------  */}
