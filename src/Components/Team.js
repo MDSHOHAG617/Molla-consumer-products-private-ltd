@@ -152,7 +152,7 @@ const Team = () => {
             </div>
           </div>
           <h2 className=" font-bold">Mr Samsul Arifen</h2>
-          <span className="">General Manager(Sales) </span>
+          <span className="">Executive Director(Admin) </span>
           <div className="media flex justify-center items-center">
             <a href="">
               <img
