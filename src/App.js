@@ -8,6 +8,10 @@ import Team from "./Components/Team";
 import Login from "./Components/Login";
 import Blog from "./Components/Blog";
 import NotFound from "./Components/NotFound";
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "UA-252901894-1"; //our tracking id
+ReactGA.initialize(TRACKING_ID);
 function App() {
   return (
     <div className="App">

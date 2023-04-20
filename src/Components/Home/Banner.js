@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Banner1 from "../../Images/Banner1.jpeg";
 import Banner2 from "../../Images/Banner2.jpeg";
 import Banner3 from "../../Images/Banner3.jpg";
@@ -8,7 +8,12 @@ import Banner6 from "../../Images/Banner6.jpeg";
 import Banner7 from "../../Images/Banner7.jpeg";
 import Banner9 from "../../Images/Banner9.jpeg";
 
+import ReactGA from "react-ga";
+
 const Banner = () => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <div>
       <div class="carousel w-full">
